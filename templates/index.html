@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Get iOS 7 Beta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/overflow.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap-responsive.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/docs.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='js/google-code-prettify/prettify.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/gif" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+  </head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- NAVBAR -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a id="github" class="brand" href="https://github.com/montysingh/GETiOS7BETA">@montysingh</a>
+          <div class="nav-collapse collapse">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>Official iOS 7 <sup><i style="font-size: 50%">BETA</i></sup></h1>
+    <p>Get the official iOS 7 Beta today. All new design, all new features.</p>
+    <p>
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+         Get iOS 7 Now
+      </button>
+    </p>
+  </div>
+</div>
+
+ <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up For iOS 7 Beta</h4>
+
+        </div>
+        <div class="modal-body">
+      
+          <form class="form-signin">
+            <i><label for="inputEmail" class="sr-only">Email address</label></i>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+            <i><label for="inputPassword" class="sr-only">Password</label></i>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <br>
+            <button class="btn btn-primary" type="submit">Sign in</button>
+        </div>
+        
+      </form>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="marketing">
+
+    <h1>Introducing iOS 7.</h1>
+    <p class="marketing-byline">The mobile OS from a whole new perspective.</p>
+
+    <div class="row-fluid">
+      <div class="span4">
+        <img src="{{ url_for('static', filename='img/frame3.jpg') }}">
+        <h2>Control Center.</h2>
+        <p>Control Center gives you quick access to the controls and apps you always seem to need right this second. Just swipe up from any screen — including the Lock screen — to do things like switch to Airplane mode, turn Wi-Fi on or off, or adjust the brightness of your display. Never has one swipe given you so much control.</p>
+      </div>
+      <div class="span4">
+        <img src="{{ url_for('static', filename='img/frame2.jpg') }}">
+        <h2>Multitasking.</h2>
+        <p>Multitasking has always been a smart way to switch between apps. Now it’s even smarter. Because iOS 7 learns when you like to use your apps and can update your content before you launch them. So if you tend to check your favorite social app at 9:00 a.m. every day, your feed will be ready and waiting for you. That’s multitasking in iOS 7.</p>
+      </div>
+      <div class="span4">
+        <img src="{{ url_for('static', filename='img/frame1.jpg') }}">
+        <h2>Camera.</h2>
+        <p>Camera in iOS 7 puts all your shooting formats — still, video, panorama, and now square — front and center. With a swipe, you can capture what you want the way you want.1 Fast. And new filters let you do even more with each image. Give it a retro feel. Dial up the contrast.
+		Or go black and white. Artistic license is all yours.</p>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-transition.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-alert.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-modal.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-dropdown.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-scrollspy.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-tab.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-tooltip.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-popover.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-button.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-collapse.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-carousel.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-typeahead.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-affix.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/holder/holder.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/google-code-prettify/prettify.js') }}"></script>
+
+    <!-- ANALYTICS -->
+    <script>
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+<script>
+$(function () {
+  $('.js-popover').popover()
+  $('.js-tooltip').tooltip()
+  $('#tall-toggle').click(function () {
+    $('#tall').toggle()
+  })
+})
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+a#github{
+  color: white;
+  font-size: 100%;
+  font-family: "Roboto";
+}
+a#github:hover{
+  text-decoration: none;
+  color: #9b59b6;
+  font-size: 105%;
+}
+a#github:active{
+  text-decoration: none;
+  color: #8e44ad;
+  font-size: 110%;
+}
